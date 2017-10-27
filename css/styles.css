@@ -1,0 +1,86 @@
+body {
+  /*color: #F2f3f4;*/
+  background-color: #F2f3f4;
+  font-size: 16px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #2e86c1;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+.navbar-brand h1 { /* name */
+  color: #F2f3f4;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #808B96;
+  margin-top: 0;
+  line-height: .7;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+#nav-list a {
+  color: #E7E7E7;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: #E7E7E7;
+  background: #C0392b;
+}
+#nav-list a span {
+  font-size: 1.75em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #F1c40f;
+  clear: both;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+}
+/* END HEADER */
+
+/*BEGIN MAINCONTENT*/
+.maincontent {
+   position: relative;
+   float: left:
+}
+.maincontent h2 {
+   text-transform: capitalize;
+   font-size: 1.5em;
+   margin-top: 0px;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+   overflow: hidden;
+   background-color: #BDC3C7;
+   width: 100%;
+   margin-bottom: 10px;
+   padding: 10px 10px 10px 10px;
+}
+
+#home-tiles div div h2 {
+   color: #8e44ad;
+   font-size:  1.5em;
+   font-weight: bold;
+   text-transform: capitalize;
+   margin-top: 0px;
+}
+
+#home-tiles div div p {
+   margin-bottom: 0px;
+}
